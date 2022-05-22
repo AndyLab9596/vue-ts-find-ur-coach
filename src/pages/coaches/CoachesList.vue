@@ -38,9 +38,9 @@
 <script lang="ts" >
 import { defineComponent } from "vue";
 import { mapGetters } from "vuex";
-import CoachItem from "../../components/coaches/CoachItem.vue";
-import CoachFilter from "../../components/coaches/CoachFilter.vue";
 import { ICoach, IFilters } from './types';
+import CoachItem from "@/components/coaches/CoachItem.vue";
+import CoachFilter from "@/components/coaches/CoachFilter.vue";
 
 export default defineComponent({
     components: {
